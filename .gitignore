@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Excel files
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+
+# Environment secrets
+.env
+.env.*
+
+# Generated migration data
+EV_data/
+EV_logs/
+FL_data/
+FL_logs/
+FRESHCALL_data/
+FRESHCALL_logs/
+FSERV_data/
+FSERV_logs/
+JVS_data/
+JVS_logs/
+
+# Generated data inside test projects
+test_refactored_shared_pool/EV_data/
+test_refactored_shared_pool/FL_data/
+test_refactored_shared_pool/FRESHCALL_data/
+test_refactored_shared_pool/JVS_data/
+test_refactored_shared_pool/FSERV_data/
+test_refactored_shared_pool/__pycache__/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Log and temporary files
+*.log
+*.tmp
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
